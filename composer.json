@@ -1,0 +1,41 @@
+{
+    "name": "dolphiq/favicon",
+    "description": "Create multi-platform favicons for your (mobile) website",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "favicon"
+    ],
+    "support": {
+        "docs": "https://github.com/Dolphiq/favicon/blob/master/README.md",
+        "issues": "https://github.com/Dolphiq/favicon/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johan Zandstra",
+            "homepage": "https://dolphiq.nl"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "dolphiq\\favicon\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "favicon",
+        "handle": "favicon",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": true,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/Dolphiq/favicon/master/CHANGELOG.md",
+        "class": "dolphiq\\favicon\\Favicon"
+    }
+}
